@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wnim-master.flake = false;
+  inputs.src-wnim-master.ref   = "refs/heads/master";
   inputs.src-wnim-master.owner = "khchen";
-  inputs.src-wnim-master.ref   = "master";
   inputs.src-wnim-master.repo  = "wNim";
   inputs.src-wnim-master.type  = "github";
   
